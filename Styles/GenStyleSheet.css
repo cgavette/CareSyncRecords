@@ -1,0 +1,374 @@
+﻿:root {
+    background-color: #FFFFFF;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar settings */
+.navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 3%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 25px 20px;
+        text-decoration: none;
+    }
+
+        .navbar a:hover {
+            color: #d50c50;
+        }
+
+/* table settings */
+.datatable table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.datatable th, td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.datatable th {
+    background-color: #D50C50;
+    color: #fff;
+}
+
+.datatable tr:nth-child(odd) {
+    background-color: #F1E8EA;
+}
+
+.datatable tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.datatable tr:hover {
+    background-color: #fcc9da;
+}
+
+/*generic center tag*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableCenter {
+    margin-left: auto;
+    margin-right: auto;
+    background: #f5f5f5;
+}
+
+.tableButton button {
+    background-color: #D50C50;
+    color: #ffffff;
+}
+
+.addBar {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.addBarButton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #D50C50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+    .addBarButton:hover {
+        background-color: #74062b;
+    }
+
+/* intro settings */
+.Intro {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    height: 450px;
+    width: 500px;
+    padding: 15px 15px 15px 15px;
+}
+
+    .Intro h1 {
+        color: #D50C50;
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .Intro p {
+        color: #0a014f;
+        font-size: 30px;
+    }
+
+    .Intro a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #D50C50;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .Intro a:hover {
+            background-color: #74062b;
+        }
+
+/* search settings */
+.SearchLabel {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 30%;
+}
+
+.SearchTextBox {
+    display: inline-block;
+}
+
+.SearchButton {
+    display: inline-block;
+    margin-left: 4%;
+    padding: 10px 20px;
+    background-color: #D50C50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .SearchButton:hover {
+        background-color: #74062b;
+    }
+
+.HelpSection {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 50%;
+    padding: 15px 15px 15px 15px;
+}
+
+    .HelpSection h1 {
+        color: #D50C50;
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .HelpSection p {
+        color: #0a014f;
+        font-size: 30px;
+    }
+
+/* login settings */
+.Login {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    height: 450px;
+    width: 500px;
+    padding: 15px 15px 15px 15px;
+}
+
+    .Login h1 {
+        color: #D50C50;
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .Login p {
+        font-size: 30px;
+        font-family: Arial;
+    }
+
+.LoginButton {
+    display: inline-block;
+    margin-left: 4%;
+    padding: 10px 20px;
+    background-color: #D50C50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .LoginButton:hover {
+        background-color: #74062b;
+    }
+
+.ResetButton {
+    display: inline-block;
+    margin-left: 4%;
+    padding: 10px 20px;
+    background-color: #898989;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .ResetButton:hover {
+        background-color: #525252;
+    }
+
+/* contact page settings */
+.Contact {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    right: 35%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 30%;
+    padding: 15px 15px 15px 15px;
+}
+
+    .Contact h1 {
+        color: #D50C50;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+.ContactCheckbox {
+}
+
+    .ContactCheckbox option:checked {
+        color: #D50C50;
+    }
+
+.ContactCalender {
+    border-radius: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .ContactCalender a {
+        text-decoration: none;
+    }
+
+    .ContactCalender th, td {
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .ContactCalender tr {
+        background-color: #FFFFFF;
+    }
+
+    .ContactCalender td {
+        border: solid;
+        border-color: #C2C2C2;
+    }
+
+.CancelButton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #898989;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+    .CancelButton:hover {
+        background-color: #525252;
+    }
+
+/*this is the style from the general thought*/
+.formtemplate {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.form-label {
+    color: #74062b;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.form-text {
+    width: 37%;
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+/*another one from the general template*/
+
+
+
+.centered-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    text-align: center;
+    color: #D50C50;
+    font-size: larger;
+}

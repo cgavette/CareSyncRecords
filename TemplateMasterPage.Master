@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TemplateMasterPage.master.cs" Inherits="CareSyncRecords.TemplateMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>CareSync Records</title>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" type="image/x-icon" href="Images/logoFavicon.png" />
+    <link href="Styles/GenStyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="navbar">
+                <a href="frmHome.aspx"></a>
+                <a href="frmView.aspx">View</a>
+                <a href="frmEdit.aspx">Edit</a>
+                <a href="frmContactPage.aspx">Contact</a>
+                <a href="frmAdminPage.aspx">Admin</a>
+                <a href="frmLogin.aspx">Login</a>
+                <a href="frmHelp.aspx">Help</a>
+            </div>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <!-- Page specific stuff here -->
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
